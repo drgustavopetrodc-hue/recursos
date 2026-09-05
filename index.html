@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Biblioteca de recursos de rol para la comunidad de roleplay 'Santa Sede'. Contenido de ficción, sin afiliación con la Santa Sede o el Vaticano reales.">
-    <meta name="author" content="Comunidad de Roleplay Santa Sede">
-    <title>Archivos Litúrgicos [RP] | Comunidad Santa Sede</title>
+    <meta name="description" content="Recursos privados para sacerdotes y ministros de la Santa Sede.">
+    <meta name="author" content="Santa Sede">
+    <title>Archivos Sagrados y Confidenciales | Sede Apostólica</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
         /* PALETA DE COLORES REFINADA */
@@ -64,22 +64,6 @@
             /* Efecto texto dorado metálico */
             color: var(--color-gold);
             text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8), -1px -1px 0 #FFEA85;
-        }
-
-        .rp-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            margin-top: 18px;
-            padding: 8px 20px;
-            background: rgba(0, 0, 0, 0.25);
-            border: 2px solid var(--color-gold);
-            border-radius: 30px;
-            color: var(--color-gold);
-            font-family: 'Lato', sans-serif;
-            font-size: 0.85em;
-            letter-spacing: 1px;
-            text-transform: uppercase;
         }
 
         /* --- SECCIÓN DE CONTENIDO PRINCIPAL --- */
@@ -269,13 +253,13 @@
 
         <section style="border-left: 6px solid var(--color-cardenal-dark);">
             <h2>Acceso Restringido</h2>
-            <p class="access-note">Este portal reúne los recursos litúrgicos de ambientación para nuestro rol. Ingresa la clave del servidor compartida por el staff para desbloquear la biblioteca.</p>
+            <p class="access-note">Este portal contiene documentos confidenciales y esenciales para el ejercicio de su ministerio. Por favor, utilice el código de acceso proporcionado por el Dicasterio de la Doctrina de la Fe.</p>
             <div class="access-form">
-                <label for="accessCode" style="font-weight: 700;">Clave del Servidor:</label>
-                <input type="text" id="accessCode" placeholder="CLAVE DEL SERVIDOR AQUÍ">
-                <button onclick="checkAccess()">Ver Recursos</button>
+                <label for="accessCode" style="font-weight: 700;">Ingresa el Código Secreto:</label>
+                <input type="text" id="accessCode" placeholder="CÓDIGO SECRETO AQUÍ">
+                <button onclick="checkAccess()">Ver Recursos Sagrados</button>
             </div>
-            <p id="errorMessage" class="error-message">Clave incorrecta. Consulta con el staff del servidor para obtenerla.</p>
+            <p id="errorMessage" class="error-message">Error de Autenticación. El código ingresado es incorrecto. Contacte a la Cancillería Apostólica.</p>
         </section>
 
         <section id="resources">
@@ -406,7 +390,6 @@
                 </div>
             </div>
             
-            <p style="text-align: center; color: #999; font-size: 0.85em; margin-top: 40px; position: relative; z-index: 1;">Comunidad de Roleplay "Santa Sede" — contenido de ficción, sin afiliación con la Santa Sede real.</p>
         </section>
     </div>
     <script>
